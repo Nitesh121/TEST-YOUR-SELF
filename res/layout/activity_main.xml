@@ -1,0 +1,71 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/edu"
+        android:layout_weight="1.08" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Get Comprehensive Study Material "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#0f1012"
+        android:layout_weight="0.29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.19"
+        android:text="Complete Prepretion with Video,Lessons and Unlimited Practic Test "
+        android:textColor="#0f1012"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="Start"
+            android:text="REGISTER"
+            android:textColor="#0e2fd2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="Log"
+            android:text="LOGIN"
+            android:textColor="#0e2fd2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+

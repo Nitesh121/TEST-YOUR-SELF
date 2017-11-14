@@ -1,0 +1,98 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:src="@drawable/fb"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="name"
+        android:textColor="#f00"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Contact"
+        android:textSize="20sp"
+        android:textColor="#f00"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="contact no"
+        android:inputType="phone"
+
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email_id"
+        android:textSize="20sp"
+        android:textColor="#f00"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="email"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="pass"
+        android:inputType="textPassword"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:textColor="#eded0d"
+        android:textStyle="bold"
+        android:text="Sign Up"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:onClick="Sign"
+        android:layout_weight="0.08" />
+
+
+    <Button
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:textColor="#eded0d"
+        android:textStyle="bold"
+        android:text="Sign In"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:onClick="login" />
+
+
+
+</LinearLayout>

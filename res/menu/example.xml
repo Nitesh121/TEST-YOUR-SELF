@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="HOME"
+        android:onClick="hom"/>
+
+
+    <item
+        android:title="COURSE"
+        android:onClick="cour"
+        >
+
+    </item>
+    <item android:title="PRACTICS"
+
+        ></item>
+    <item android:title="CONTACT"
+        ></item>
+    <item
+        android:title="LOGIN"
+        android:onClick="goToLogin"
+        />
+    <item
+        android:title="SIGN UP"
+        android:onClick="sign"
+         />
+
+
+
+
+</menu>
